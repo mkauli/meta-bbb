@@ -20,6 +20,11 @@ DEV_EXTRAS = " \
 IMAGE_INSTALL += " \
     emmc-upgrader \
     firewall \
+    openssh \
+    openssh-keygen \
+    openssh-sftp-server \
+    htop \
+    gdbserver \
     ${DEV_EXTRAS} \
     ${WIFI} \
     ${SECURITY_TOOLS} \
